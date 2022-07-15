@@ -230,12 +230,12 @@ section {
                     color: var(--color-secondary);
                 }
                 .small-text {
-                    padding-left: 3rem;
+                    padding-left: 2rem;
                     position: relative;
                     text-transform: uppercase;
-                    font-size: 1.2rem;
+                    font-size: 1rem;
                     color: var(--color-grey-1);
-                    letter-spacing: 2px;
+                    letter-spacing: 1.5px;
                     &::before {
                         content: '';
                         position: absolute;
@@ -251,7 +251,7 @@ section {
     }
 
     .left-about {
-        padding-right: 5rem;
+        margin-left: -10px;
         p {
             line-height: 2rem;
             padding: 1rem;
@@ -265,17 +265,17 @@ section {
 }
 
 .about-stats {
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
     .progress-bars {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 2rem;
+        grid-gap: 1rem;
         .progress-bar {
             display: flex;
             flex-direction: column;
             .prog-title {
                 text-transform: uppercase;
-                font-weight: 500;
+                font-weight: 300;
             }
             .progress-con {
                 display: flex;
@@ -296,7 +296,7 @@ section {
                         height: 100%;
                         background-color: var(--color-secondary);
                         transition: all .4s ease-in-out;
-                        width: 50%;
+                        width: 35%;
                     }
                     .Solar-Supplier { width: 80%; }
                     .Solar-Distributor { width: 95%; }
@@ -449,56 +449,56 @@ section {
     transform: scale(1);
 }
 
-//Blogs Section
-.blogs {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 2rem;
-    margin-top: 3rem;
-    .blog {
-        position: relative;
-        background-color: var(--color-grey-5);
-        border-radius: 5px;
-        box-shadow: 1px 1px 20px rgba(0,0,0,.1);
-        transition: all .4s ease-in-out;
-        &:hover {
-            box-shadow: 1px 1px 20px rgba(0,0,0,.3);
-            transform: translateY(-5px);
-            transition: all .4s ease-in-out;
-            img {
-                filter: grayscale(0);
-                transform: scale(1.1);
-                box-shadow: 0px 4px 15px rgba(0,0,0,0.8);
-            }
-        }
-        img {
-            width: 100%;
-            height: 300px;
-            object-fit: cover;
-            border-top-left-radius: 5px;
-            border-top-right-radius: 5px;
-            filter: grayscale(100%);
-            transition: all .4s ease-in-out;
-        }
-        .blog-text {
-            margin-top: -7px;
-            padding: 1.1rem;
-            border-top: 8px solid var(--color-secondary);
-            h4 {
-                font-size: 1.5rem;
-                margin-bottom: .7rem;
-                transition: all .4s ease-in-out;
-                cursor: pointer;
-                &:hover { color: var(--color-secondary); }
-            }
-            p{
-                color: var(--color-grey-2);
-                line-height: 2rem;
-                padding-bottom: 1rem;
-            }
-        }
-    }
-}
+// //Blogs Section
+// .blogs {
+//     display: grid;
+//     grid-template-columns: repeat(3, 1fr);
+//     grid-gap: 2rem;
+//     margin-top: 3rem;
+//     .blog {
+//         position: relative;
+//         background-color: var(--color-grey-5);
+//         border-radius: 5px;
+//         box-shadow: 1px 1px 20px rgba(0,0,0,.1);
+//         transition: all .4s ease-in-out;
+//         &:hover {
+//             box-shadow: 1px 1px 20px rgba(0,0,0,.3);
+//             transform: translateY(-5px);
+//             transition: all .4s ease-in-out;
+//             img {
+//                 filter: grayscale(0);
+//                 transform: scale(1.1);
+//                 box-shadow: 0px 4px 15px rgba(0,0,0,0.8);
+//             }
+//         }
+//         img {
+//             width: 100%;
+//             height: 300px;
+//             object-fit: cover;
+//             border-top-left-radius: 5px;
+//             border-top-right-radius: 5px;
+//             filter: grayscale(100%);
+//             transition: all .4s ease-in-out;
+//         }
+//         .blog-text {
+//             margin-top: -7px;
+//             padding: 1.1rem;
+//             border-top: 8px solid var(--color-secondary);
+//             h4 {
+//                 font-size: 1.5rem;
+//                 margin-bottom: .7rem;
+//                 transition: all .4s ease-in-out;
+//                 cursor: pointer;
+//                 &:hover { color: var(--color-secondary); }
+//             }
+//             p{
+//                 color: var(--color-grey-2);
+//                 line-height: 2rem;
+//                 padding-bottom: 1rem;
+//             }
+//         }
+//     }
+// }
 
 
 //Contact section
@@ -592,10 +592,6 @@ section {
                 margin-left: 1.5rem;
             }
         }
-        .submit-btn {
-            display: flex;
-            justify-content: flex-start;
-        }
     }
 }
 
@@ -651,19 +647,20 @@ section {
     h2 {
         position: relative;
         text-transform: uppercase;
-        font-size: 4rem;
-        font-weight: 700;
+        font-size: 5rem;
+        font-weight: 500;
         span { color: var(--color-secondary); }
         .bg-text {
             position: absolute;
+            width: 100%;
             top: 50%;
             left: 50%;
             color: var(--color-grey-5);
             transition: all .4s ease-in-out;
             z-index: -1;
             transform: translate(-50%, -50%);
-            font-weight: 800;
-            font-size: 6.3rem;
+            font-weight: 500;
+            font-size: 1rem;
         }
     }
 }
