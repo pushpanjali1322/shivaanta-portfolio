@@ -317,24 +317,24 @@ section {
   height: 100%;
   background-color: var(--color-secondary);
   transition: all 0.4s ease-in-out;
-  width: 60%;
+  width: 50%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .html {
+.about-stats .progress-bars .progress-bar .progress-con .progress .Solar-Supplier {
   width: 80%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .css {
+.about-stats .progress-bars .progress-bar .progress-con .progress .Solar-Distributor {
   width: 95%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .js {
+.about-stats .progress-bars .progress-bar .progress-con .progress .Solar-Power-Systems {
   width: 75%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .react {
+.about-stats .progress-bars .progress-bar .progress-con .progress .Solar-Street-Lights {
   width: 60%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .node {
+.about-stats .progress-bars .progress-bar .progress-con .progress .Solar-Water-Pump {
   width: 87%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .python {
+.about-stats .progress-bars .progress-bar .progress-con .progress .Solar-Lighting-System {
   width: 70%;
 }
 
@@ -554,9 +554,9 @@ section {
   line-height: 2rem;
 }
 .contact-content-con .left-contact .contact-info .contact-item {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  gap: 150px;
 }
 .contact-content-con .left-contact .contact-info .contact-item p {
   margin: 0.3rem 0 !important;

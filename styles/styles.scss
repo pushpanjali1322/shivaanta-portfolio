@@ -296,14 +296,14 @@ section {
                         height: 100%;
                         background-color: var(--color-secondary);
                         transition: all .4s ease-in-out;
-                        width: 60%;
+                        width: 50%;
                     }
-                    .html { width: 80%; }
-                    .css { width: 95%; }
-                    .js { width: 75%; }
-                    .react{ width: 60%; }
-                    .node{ width: 87%; }
-                    .python{ width: 70%; }
+                    .Solar-Supplier { width: 80%; }
+                    .Solar-Distributor { width: 95%; }
+                    .Solar-Power-Systems { width: 75%; }
+                    .Solar-Street-Lights{ width: 60%; }
+                    .Solar-Water-Pump{ width: 87%; }
+                    .Solar-Lighting-System{ width: 70%; }
                 }
             }
         }
@@ -519,9 +519,9 @@ section {
 
         .contact-info {
             .contact-item {
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
+                display: grid;
+                grid-template-columns: 40px 1fr;
+                gap: 150px;
                 p {
                     margin: .3rem 0 !important;
                     padding: 0 !important;
