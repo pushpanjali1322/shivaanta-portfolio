@@ -145,8 +145,8 @@ section {
 
 /*Header-content*/
 .header-content {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    // display: grid;
+    // grid-template-columns: repeat(2, 1fr);
     min-height: 100vh;
     .left-header {
         display: flex;
@@ -518,17 +518,21 @@ section {
         }
 
         .contact-info {
+            
             .contact-item {
+                
                 display: grid;
-                grid-template-columns: 40px 1fr;
-                gap: 150px;
+                grid-template-columns: 50px 1fr;
+                gap: 20px;
+                align-items: center;
+                text-align: center;
                 p {
                     margin: .3rem 0 !important;
                     padding: 0 !important;
                 }
                 .icon {
                     display: grid;
-                    grid-template-columns: 40px 1fr;
+                    grid-template-columns: 60px 1fr;
                     i {
                         display: flex;
                         align-items: center;
@@ -647,7 +651,7 @@ section {
     h2 {
         position: relative;
         text-transform: uppercase;
-        font-size: 5rem;
+        font-size: 3.9rem;
         font-weight: 500;
         span { color: var(--color-secondary); }
         .bg-text {
