@@ -14,11 +14,13 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@joeattardi/emoji-button@3.1.1/dist/index.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <!-- navbar -->
+
   <nav class="navbar navbar-inverse" class="navbar fixed-top navbar-expand-lg navbar-light"
     style="background-color: #e3f2fd;">
     <div class="container-fluid">
@@ -31,11 +33,11 @@
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="home.html" class="nav-item nav-link"><span class="glyphicon glyphicon-home"></span> Home</a>
-        </li>
-        <li><a href="About.html" class="nav-item nav-link"><span class="glyphicon glyphicon-user"></span> About</a>
-        </li>
+        <li><a href="home.html" class="nav-item nav-link "><span class="glyphicon glyphicon-home"></span> Home</a></li>
+        <li><a href="About.html" class="nav-item nav-link"><span class="glyphicon glyphicon-user"></span> About</a></li>
         <li><a href="projects.html" class="nav-item nav-link "><span class="glyphicon glyphicon-briefcase"></span>Projects</a></li>
+        <li><a href="enquiry.html" class="nav-item nav-link "><span class="glyphicon glyphicon-briefcase"></span>Enquiry</a></li>
+        <li><a href="contacts.html" class="nav-item nav-link "><span class="glyphicon glyphicon-briefcase"></span>Contact</a></li>
       </ul>
     </div>
   </nav>
@@ -149,12 +151,12 @@
       </div>
     </div>
  
-  
 
 
 
     <div class="container">
       <h3 class="about_us_heading">MY PROJECTS</h3>
+      <h4 style="text-align: center;">The world's Latest blockchain-powered online business platform with token investment & grow your business.</h4>
       <div class="row">
         <div class="col-md-4">
           <div class="thumbnail">
@@ -194,19 +196,7 @@
       </div>
     </div>
 
-    <button class="open-button" onclick="openForm()">Chat</button>
 
-<div class="chat-popup" id="myForm">
-  <form action="/action_page.php" class="form-container">
-    <h1>Chat</h1>
-
-    <label for="msg"><b>Message</b></label>
-    <textarea placeholder="Type message.." name="msg" required></textarea>
-
-    <button type="submit" class="btn">Send</button>
-    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-  </form>
-</div>
 
 <!-- footer -->
 <div class="shivaanta_footer">
@@ -214,7 +204,7 @@
   <thead style="text-align:left">
     <tr>
       <th >About Us</th>
-      <th>Our Products</th>
+      <th>Our Services</th>
       <th>Quick Link</th>
       <th>Contact Info</th>
     </tr>
@@ -246,7 +236,7 @@
     <tr>
       <td>Solar Lighting System, Solar Water Pump, Solar Pump.</td>
       <td>Solar Distributor</td>
-      <td></td>
+      <td style="width: 100px;"><a href="enquiry.html">Enquiry</a></td>
       <td>Contact No : 91+8319521259 </td>
       
     </tr>
@@ -254,7 +244,7 @@
     <tr>
       <td></td>
       <td>Solar Water Pump</td>
-      <td></td>
+      <td style="width: 100px;"><a href="contacts.html">Contacts</a></td>
       <td>Email : shivaanta@gmail.com</td>
     </tr>
   
@@ -281,4 +271,6 @@
 function closeForm() {
   document.getElementById("myForm").style.display = "none";
 }
+
+
 </script>
