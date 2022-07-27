@@ -321,4 +321,8 @@ input[type=text] {
     right: 10%;
     width: 80vw;
   }
+}
+.carousel-img {
+  height: 400px;
+  width: 800px;
 }/*# sourceMappingURL=styles.css.map */
