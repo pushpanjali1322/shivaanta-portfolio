@@ -233,4 +233,33 @@
   color: #fff;
   background: #111;
   transition: 0.4s;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.centered1 {
+  position: absolute;
+  top: 56%;
+  left: 50%;
+  transform: translate(-55%, -55%);
+  color: white;
+}
+
+.centered1 > a {
+  color: #33b5e5;
+  text-decoration: none;
+}
+
+.centered1 > a:hover {
+  color: rgb(236, 81, 30);
+}
+
+.enquiry-heading:hover {
+  color: rgb(236, 81, 30);
 }/*# sourceMappingURL=styles.css.map */
