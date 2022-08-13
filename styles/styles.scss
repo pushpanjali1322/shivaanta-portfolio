@@ -245,3 +245,18 @@ transition: 0.4s;
 .enquiry-heading:hover{
   color: rgb(236, 81, 30);
 }
+
+// map 
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:50%;
+  position:relative;
+  height:0;
+}
+.map-responsive iframe{
+  left:0;
+  top: 15px;
+  height:400px;
+  width:100%;
+  position:absolute;
+}
