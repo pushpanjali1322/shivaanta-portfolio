@@ -6,6 +6,10 @@ $(function(){
     $("#costum-footer").load("footer.html");  
   });
 
+  $(function(){
+    $("#left_bars").load("leftnavbar.html");  
+  });
+
   function slideShowStart(x) {
     // alert(x.id);
     document.getElementById(x.id).setAttribute("data-bs-ride" , "carousel")
